@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Coding Profile</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./profile.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="jumbotron bg-primary text-white">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images\FB_IMG_16671576374228190.jpg" alt="Profile Picture" class="img-fluid rounded-circle" style="max-width: 200px;">
+                </div>
+                <div class="col-md-5">
+                    <h1 class="display-4">Sihle Mofokeng</h1>
+                    <p class="lead">Web Developer</p>
+                    <p>I'm a passionate web developer with a strong love for coding. I enjoy creating dynamic and interactive web applications. My goal is to keep learning and improving my skills to stay up-to-date with the latest technologies. I'm also an open-source enthusiast and collaborate on various projects on GitHub.</p>
+                    <p><i class="fa fa-envelope"></i> Email: mofokengsihle63@gmail.com</p>
+                    <p><i class="fa fa-phone"></i> Phone: 060 464 1455</p>
+                    <p><i class="fa fa-github"></i> GitHub: <a href="https://github.com/Sihle1996" target="_blank" class="link">github.com/Sihle1996</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">My Coding Curriculum</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item curriculum-item"><img src="images\HTML5_logo_and_wordmark.svg.png" alt="HTML"> HTML</li>
+                            <li class="list-group-item curriculum-item"><img src="images\CSS3_logo_and_wordmark.svg.png" alt="CSS"> CSS</li>
+                            <li class="list-group-item curriculum-item"><img src="images\JavaScript-logo.png" alt="JavaScript"> JavaScript</li>
+                            <li class="list-group-item curriculum-item"><img src="images\bootstrap.png" alt="Bootstrap"> Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Skills</h2>
+                        <ul id="skills-list" class="list-group">
+
+                        </ul>
+                        <div class="form-group">
+                            <label for="new-skill">Add Skill:</label>
+                            <input type="text" id="new-skill" class="form-control">
+                            <button id="add-skill" class="btn btn-primary mt-2">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./profile.js"></script>
+</body>
+</html>
